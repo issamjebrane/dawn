@@ -6,11 +6,8 @@ import { FaInstagram } from "react-icons/fa";
 import './App.css'
 
 function App() {
-    const emailAddress = 'contact.dawnstore@gmail.com';
   
-    const handleClick = () => {
-      window.location.href = `mailto:${emailAddress}`;
-    };
+
   return (
     <>
     <div className="container">
